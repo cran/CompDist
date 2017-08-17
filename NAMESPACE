@@ -1,0 +1,10 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "dbeta", "dchisq", "dexp", "df", "dgamma",
+             "dlnorm", "dweibull", "optim", "pbeta", "pchisq", "pexp",
+             "pf", "pgamma", "plnorm", "pweibull", "qbeta", "qchisq",
+             "qexp", "qf", "qgamma", "qlnorm", "qweibull", "runif",
+             "uniroot")
+importFrom("utils", "head")
+importFrom("utils", "tail")
+importFrom("stats", "na.omit", "nlm")
+importFrom(numDeriv, grad)
